@@ -1,0 +1,12 @@
+# Data Configuration
+data:
+  train_dir: "data/cifake/train"
+  val_dir: "data/cifake/val"
+  test_dir: "data/cifake/test"
+  batch_size: 32
+  num_workers: 4
+
+# Model Configuration
+model:
+  clip_model_name: "openai/clip-vit-base-patch16"
+  frequency_branch_channels: 16

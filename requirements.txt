@@ -1,0 +1,8 @@
+torch
+torchvision
+transformers
+numpy
+matplotlib
+scikit-learn
+albumentations
+PyYAML
