@@ -1,12 +1,26 @@
 # Data Configuration
+
 data:
-  train_dir: "data/cifake/train"
-  val_dir: "data/cifake/val"
-  test_dir: "data/cifake/test"
-  batch_size: 32
-  num_workers: 4
+  cifake_path: "D:/IAD_data/cifake"
+
+  # Existing SD1.5 path
+  genimage_path: "D:/IAD_data/genimage_sd15"
+
+  # Multi-generator experiment
+  sd15_path: "D:/IAD_data/genimage_sd15"
+  biggan_path: "D:/IAD_data/genimage_biggan"
+  sdv5_path: "D:/IAD_data/genimage_sdv5"
+  adm_path: "D:/IAD_data/genimage_adm"
+  wukong_path: "D:/IAD_data/genimage_wukong"
+  vqdm_path: "D:/IAD_data/genimage_vqdm"
+  glide_path: "D:/IAD_data/genimage_glide"
+
+  batch_size: 16
+  num_workers: 0
+
 
 # Model Configuration
+
 model:
   clip_model_name: "openai/clip-vit-base-patch16"
   frequency_branch_channels: 16

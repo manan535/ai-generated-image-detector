@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
 torch
 torchvision
 transformers
@@ -6,3 +7,7 @@ matplotlib
 scikit-learn
 albumentations
 PyYAML
+kaggle
+pytest
+streamlit
+Pillow

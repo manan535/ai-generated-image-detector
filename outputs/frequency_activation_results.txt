@@ -1,0 +1,7 @@
+Frequency Branch Activation Diagnostic
+Target: model.freq_branch.features[7]
+
+SD1.5 FAKE: mean cosine=0.862893, std=0.136904
+ADM FAKE: mean cosine=0.984676, std=0.007895
+SD1.5 REAL: mean cosine=0.952005, std=0.041117
+ADM REAL: mean cosine=0.970175, std=0.021070

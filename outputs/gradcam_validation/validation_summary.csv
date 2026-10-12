@@ -1,0 +1,16 @@
+generator,filename,ground_truth,prediction,confidence,correct,image_path,gradcam_path
+SD15,sdv5_real_00446.JPEG,REAL,REAL,0.9674,True,outputs/gradcam_validation\SD15_01_original.png,outputs/gradcam_validation\SD15_01_gradcam.png
+SD15,sdv5_fake_01409.png,FAKE,FAKE,0.9567,True,outputs/gradcam_validation\SD15_02_original.png,outputs/gradcam_validation\SD15_02_gradcam.png
+SD15,sdv5_real_01734.JPEG,REAL,REAL,0.6883,True,outputs/gradcam_validation\SD15_03_original.png,outputs/gradcam_validation\SD15_03_gradcam.png
+SD15,sdv5_real_01546.JPEG,REAL,REAL,0.9969,True,outputs/gradcam_validation\SD15_04_original.png,outputs/gradcam_validation\SD15_04_gradcam.png
+SD15,sdv5_fake_01808.png,FAKE,FAKE,0.9982,True,outputs/gradcam_validation\SD15_05_original.png,outputs/gradcam_validation\SD15_05_gradcam.png
+ADM,adm_real_01241.JPEG,REAL,REAL,0.9354,True,outputs/gradcam_validation\ADM_01_original.png,outputs/gradcam_validation\ADM_01_gradcam.png
+ADM,adm_fake_01409.PNG,FAKE,FAKE,0.9276,True,outputs/gradcam_validation\ADM_02_original.png,outputs/gradcam_validation\ADM_02_gradcam.png
+ADM,adm_real_01734.JPEG,REAL,REAL,0.8511,True,outputs/gradcam_validation\ADM_03_original.png,outputs/gradcam_validation\ADM_03_gradcam.png
+ADM,adm_real_01546.JPEG,REAL,REAL,0.5861,True,outputs/gradcam_validation\ADM_04_original.png,outputs/gradcam_validation\ADM_04_gradcam.png
+ADM,adm_fake_01808.PNG,FAKE,FAKE,0.7507,True,outputs/gradcam_validation\ADM_05_original.png,outputs/gradcam_validation\ADM_05_gradcam.png
+Wukong,wukong_real_00446.JPEG,REAL,REAL,0.9192,True,outputs/gradcam_validation\Wukong_01_original.png,outputs/gradcam_validation\Wukong_01_gradcam.png
+Wukong,wukong_real_01241.JPEG,REAL,REAL,0.6547,True,outputs/gradcam_validation\Wukong_02_original.png,outputs/gradcam_validation\Wukong_02_gradcam.png
+Wukong,wukong_fake_01409.png,FAKE,FAKE,0.9079,True,outputs/gradcam_validation\Wukong_03_original.png,outputs/gradcam_validation\Wukong_03_gradcam.png
+Wukong,wukong_real_01734.JPEG,REAL,REAL,0.9870,True,outputs/gradcam_validation\Wukong_04_original.png,outputs/gradcam_validation\Wukong_04_gradcam.png
+Wukong,wukong_fake_01808.png,FAKE,FAKE,0.9906,True,outputs/gradcam_validation\Wukong_05_original.png,outputs/gradcam_validation\Wukong_05_gradcam.png

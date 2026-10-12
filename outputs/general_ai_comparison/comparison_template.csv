@@ -1,0 +1,11 @@
+filename,original_filename,generator,ground_truth,our_prediction,our_confidence,chatgpt_prediction,chatgpt_confidence,claude_prediction,claude_confidence,notes
+img_01_SD15_REAL.JPEG,sdv5_real_00446.JPEG,SD15,REAL,REAL,99.5%,,,,,
+img_02_SD15_REAL.JPEG,sdv5_real_01241.JPEG,SD15,REAL,AI-GENERATED,73.7%,,,,,
+img_03_SD15_REAL.JPEG,sdv5_real_01734.JPEG,SD15,REAL,REAL,63.8%,,,,,
+img_04_SD15_FAKE.png,sdv5_fake_01409.png,SD15,FAKE,AI-GENERATED,95.5%,,,,,
+img_05_SD15_FAKE.png,sdv5_fake_01808.png,SD15,FAKE,AI-GENERATED,99.9%,,,,,
+img_06_ADM_REAL.JPEG,adm_real_00446.JPEG,ADM,REAL,REAL,65.9%,,,,,
+img_07_ADM_FAKE.PNG,adm_fake_01409.PNG,ADM,FAKE,AI-GENERATED,93.4%,,,,,
+img_08_ADM_FAKE.PNG,adm_fake_01808.PNG,ADM,FAKE,AI-GENERATED,72.5%,,,,,
+img_09_Wukong_REAL.JPEG,wukong_real_00446.JPEG,Wukong,REAL,REAL,98.8%,,,,,
+img_10_Wukong_FAKE.png,wukong_fake_01409.png,Wukong,FAKE,AI-GENERATED,70.9%,,,,,

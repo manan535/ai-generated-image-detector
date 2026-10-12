@@ -1,0 +1,90 @@
+IAD-V2 Branch Ablation Results
+========================================
+
+Checkpoint: C:\Users\Manan\Desktop\Project\outputs\genimage_sd15_detector.pth
+Threshold: 0.5
+FAKE label: 0
+REAL label: 1
+sigmoid(logit) = P(REAL)
+
+
+SD15
+--------------------------------------------------
+
+full
+Accuracy: 0.9250
+Precision: 0.8806
+Recall: 0.9833
+F1: 0.9291
+FN: 5
+FP: 40
+
+clip_only
+Accuracy: 0.9150
+Precision: 0.8673
+Recall: 0.9800
+F1: 0.9202
+FN: 6
+FP: 45
+
+frequency_only
+Accuracy: 0.6083
+Precision: 0.6038
+Recall: 0.6300
+F1: 0.6166
+FN: 111
+FP: 124
+
+BIGGAN
+--------------------------------------------------
+
+full
+Accuracy: 0.4833
+Precision: 0.4444
+Recall: 0.1333
+F1: 0.2051
+FN: 260
+FP: 50
+
+clip_only
+Accuracy: 0.5033
+Precision: 0.5102
+Recall: 0.1667
+F1: 0.2513
+FN: 250
+FP: 48
+
+frequency_only
+Accuracy: 0.3300
+Precision: 0.0189
+Recall: 0.0067
+F1: 0.0099
+FN: 298
+FP: 104
+
+ADM
+--------------------------------------------------
+
+full
+Accuracy: 0.4900
+Precision: 0.4667
+Recall: 0.1400
+F1: 0.2154
+FN: 258
+FP: 48
+
+clip_only
+Accuracy: 0.5117
+Precision: 0.5347
+Recall: 0.1800
+F1: 0.2693
+FN: 246
+FP: 47
+
+frequency_only
+Accuracy: 0.4000
+Precision: 0.3404
+Recall: 0.2133
+F1: 0.2623
+FN: 236
+FP: 124
